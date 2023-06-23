@@ -1,0 +1,26 @@
+.cabecalho {
+    display: flex;
+    width: 100vw;
+    margin: 2em 1em 0.5em 1em;
+}
+
+.cabecalho__container {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.cabecalho__logo {
+    display: flex;
+    
+}
+
+.cabecalho__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 18px;
+    color: var(--preto);
+    display: flex;
+    align-items: center;
+    padding-left: 15vw;
+    
+}

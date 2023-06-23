@@ -1,0 +1,21 @@
+@import url("/styles/index.css");
+@import url("/styles/header.css");
+@import url("/styles/quemsou.css");
+@import url("/styles/carrossel.css");
+:root {
+    --branco-de-fundo: #ffffff;
+    --azul-de-fundo: #3B4C60;
+    --preto: #000000;
+    --verde-claro: #97D5C9;
+    --fonte-primaria: "Raleway";
+    --fonte-secundaria: "Roboto";
+
+}
+a:any-link {
+    text-decoration: none;
+
+}
+.body {
+    display: flex;
+    background-color: var(--branco-de-fundo);
+}
